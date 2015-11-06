@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="What time of day do you listen to music?"
+        android:textSize="30sp"
+        android:paddingTop="16dp"
+        android:paddingLeft="16dp"
+        android:id="@+id/textView0"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/q_height"
+        android:text="Morning"
+        android:textSize="@dimen/standard_text"
+        android:id="@+id/button11"
+        android:layout_below="@+id/textView0"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/three_q" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/q_height"
+        android:text="New Button"
+        android:textSize="@dimen/standard_text"
+        android:id="@+id/button13"
+        android:layout_below="@id/button11"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/three_q"
+        />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/q_height"
+        android:text="New Button"
+        android:textSize="@dimen/standard_text"
+        android:id="@+id/button14"
+        android:layout_below="@+id/button13"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/three_q" />
+</RelativeLayout>

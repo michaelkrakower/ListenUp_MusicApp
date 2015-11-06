@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="null"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main">
+
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/b_h"
+        android:text="Take the Music Taste Survey"
+        android:textSize="20sp"
+        android:id="@+id/button"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="toSurvey"
+        />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/b_h"
+        android:text="Weather Playlist"
+        android:textSize="20sp"
+        android:id="@+id/button2"
+        android:layout_below="@+id/button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:onClick="weatherPlaylist"
+        />
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/b_h"
+        android:text="Mood Playlist"
+        android:textSize="20sp"
+        android:id="@+id/button3"
+        android:layout_below="@+id/button2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:onClick="gotoMood"
+        />
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/b_h"
+        android:text="Local Artists"
+        android:textSize="20sp"
+        android:id="@+id/button4"
+        android:layout_below="@+id/button3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        />
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/b_h"
+        android:text="Playlists By  Genre"
+        android:textSize="20sp"
+        android:id="@+id/button5"
+        android:layout_below="@+id/button4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:onClick="gotoGenre"
+        />
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/b_h"
+        android:text="Playlists by Time of Day"
+        android:textSize="20sp"
+        android:id="@+id/button6"
+        android:layout_below="@+id/button5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:onClick="timePlaylist"
+        />
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="Settings"
+        android:textSize="15sp"
+        android:id="@+id/button7"
+        android:layout_below="@+id/button6"
+        android:layout_marginTop="10dp"
+        android:onClick="gotoSettings"
+        />
+
+
+
+</RelativeLayout>

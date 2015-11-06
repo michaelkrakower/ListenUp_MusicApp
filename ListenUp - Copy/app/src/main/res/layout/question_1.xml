@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="What do you focus on when listening to music?"
+        android:textSize="30sp"
+        android:id="@+id/textView1"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:paddingLeft="16dp"
+        android:paddingTop="16dp"
+        />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/q_height"
+        android:textSize="@dimen/standard_text"
+        android:text="Beats"
+        android:id="@+id/button8"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/three_q"
+        android:onClick="aInc"
+        />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/q_height"
+        android:textSize="@dimen/standard_text"
+        android:text="Lyrics"
+        android:id="@+id/button9"
+        android:layout_below="@+id/button8"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/three_q"
+        android:onClick="bInc"
+        />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/q_height"
+        android:text="Feel"
+        android:textSize="@dimen/standard_text"
+        android:id="@+id/button10"
+        android:layout_below="@+id/button9"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/three_q"
+        android:onClick="cInc"
+        />
+
+
+</RelativeLayout>
