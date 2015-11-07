@@ -1,0 +1,4 @@
+﻿github link: https://github.com/michaelkrakower/ListenUp_MusicApp
+
+
+ListenUp Music Recommendation App is built in android studio for android smartphones using Android 4.0 (IceCreamSandwich) or later. It can installed through the Android Studio IDE. It features playlist options for you favorite genre, your mood, the weather (not functional), time of day, or local artists (not functional). For the survey, you can access different questions by swiping left and right on the screen. Location settings, email feedback, and survey answer recording is not active currently. The program should not crash under any circumstances.
