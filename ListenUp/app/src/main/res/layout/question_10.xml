@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="What is your favorite color?"
+        android:id="@+id/textView9"
+        android:layout_gravity="center_horizontal"
+        android:paddingLeft="16dp"
+        android:paddingTop="16dp"
+        android:textSize="30sp"
+        />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/q_height"
+        android:text="Blue"
+        android:textSize="@dimen/standard_text"
+        android:id="@+id/button36"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@id/textView9"
+        android:layout_marginTop="@dimen/four_q"
+
+        />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/q_height"
+        android:text="Yellow"
+        android:textSize="@dimen/standard_text"
+        android:id="@+id/button37"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@id/button36"
+        android:layout_marginTop="@dimen/four_q"
+        />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/q_height"
+        android:text="Green"
+        android:textSize="@dimen/standard_text"
+        android:id="@+id/button38"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@id/button37"
+        android:layout_marginTop="@dimen/four_q"
+        />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/q_height"
+        android:text="Orange"
+        android:textSize="@dimen/standard_text"
+        android:id="@+id/button39"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/four_q"
+        android:layout_below="@id/button38"
+
+        />
+
+</LinearLayout>
